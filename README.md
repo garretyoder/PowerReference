@@ -16,7 +16,7 @@ ref()?.let {
   //TODO: do something with the object
 }
 ```
-PowerReference provides a simple extension function to make the above pattern easier, `safe`.
+PowerReference provides a simple extension function to make the above pattern easier, `safe`. The `safe` method will work on any object, not just PowerReferences.
 ```kotlin
 ref().safe {
   //TODO: do something with the object
