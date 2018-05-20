@@ -1,6 +1,19 @@
 # PowerReference
 PowerReference makes using WeakReferences cleaner and easier.
 
+# Building
+PowerReference is hosted on Jitpack. To build it, add jitpack to your sources.
+```gradle
+maven { url 'https://jitpack.io' }
+```
+Include PowerReference.
+```gradle
+dependencies {
+  implementation 'com.github.garretyoder:PowerReference:1.0'
+}
+```
+
+
 # Usage
 Make a reference.
 ```kotlin
