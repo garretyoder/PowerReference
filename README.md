@@ -1,5 +1,4 @@
 # PowerReference
-Extension function to make WeakReferences easy
 PowerReference makes using WeakReferences cleaner and easier.
 
 # Usage
